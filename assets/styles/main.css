@@ -118,6 +118,18 @@ body {
 	display: none;
 }
 
+.fa-github:hover {
+	color: #000000;
+}
+
+.fa-linkedin:hover {
+	color: #0077B5;
+}
+
+.fa-envelope-square:hover {
+	color: #BB001B
+}
+
 #stay-in-touch {
 	text-align: cetner;
 }
@@ -221,7 +233,7 @@ img{
 }
 
 #learn-more-skip:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 @media screen and (max-width: 991.98px) {
