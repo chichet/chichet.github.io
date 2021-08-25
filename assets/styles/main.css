@@ -182,7 +182,7 @@ img{
 /* header */
 
 #header {
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	background-color: #333;
 	color: rgba(255, 255, 255, 0.75) !important;
