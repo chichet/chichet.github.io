@@ -37,6 +37,10 @@ table {
 
 /* global */
 
+html {
+  scroll-behavior: smooth;
+}
+
 strong, b {
 	font-weight: 400;
 }
