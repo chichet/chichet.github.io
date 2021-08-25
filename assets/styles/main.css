@@ -357,6 +357,7 @@ img{
 
 @media (max-width: 575.98px) {
 	#stay-in-touch > h3 {
+		font-size: 1.1em;
 		letter-spacing: 0em;
 	}
 }
