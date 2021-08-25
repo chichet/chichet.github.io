@@ -119,7 +119,7 @@ body {
 }
 
 .fa-github:hover {
-	color: #000000;
+	color: #6cc644;
 }
 
 .fa-linkedin:hover {
@@ -127,7 +127,7 @@ body {
 }
 
 .fa-envelope-square:hover {
-	color: #BB001B
+	color: #DB4437
 }
 
 #stay-in-touch {
@@ -194,13 +194,29 @@ img{
 	justify-content: center;
 	flex-direction: column;
 	padding: 20vh 7vw 15vh 7vw;
-	background-image: url("../images/banner.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	position: relative;
 	cursor: default;
 }
+
+@media (min-width: 992px){
+	#header{
+		background-image: url("../images/banner-lg.jpg");
+	}
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	#header{
+		background-image: url("../images/banner-md.jpg");
+	}
+}
+@media (max-width: 767.98px) {
+	#header{
+		background-image: url("../images/banner-sm.jpg");
+	}
+}
+
 
 #header a {
 	color: inherit;
