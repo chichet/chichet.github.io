@@ -196,7 +196,7 @@ img{
 	padding: 20vh 7vw 15vh 7vw;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fix;
+	background-attachment: fixed;
 	position: relative;
 	cursor: default;
 }
