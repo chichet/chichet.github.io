@@ -201,7 +201,7 @@ img{
 	cursor: default;
 }
 
-@media (max-width: 1366){
+@media (max-width: 1367){
 	#header{
 		background-attachment: scroll;
 	}
