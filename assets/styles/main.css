@@ -196,15 +196,9 @@ img{
 	padding: 20vh 7vw 15vh 7vw;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	position: relative;
 	cursor: default;
-}
-
-@media (max-width: 3000px){
-	#header{
-		background-attachment: scroll;
-	}
 }
 
 @media (min-width: 992px){
