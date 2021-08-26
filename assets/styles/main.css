@@ -201,21 +201,25 @@ img{
 	cursor: default;
 }
 
-@media (min-width: 1025px){
+@media (max-width: 1366){
+	#header{
+		background-attachment: scroll;
+	}
+}
+
+@media (min-width: 992px){
 	#header{
 		background-image: url("../images/banner-lg.jpg");
 	}
 }
 
-@media (min-width: 768px) and (max-width: 1024.99px) { 
+@media (min-width: 768px) and (max-width: 991.98px) { 
 	#header{
-		background-attachment: scroll;
 		background-image: url("../images/banner-md.jpg");
 	}
 }
 @media (max-width: 767.98px) {
 	#header{
-		background-attachment: scroll;
 		background-image: url("../images/banner-sm.jpg");
 	}
 }
