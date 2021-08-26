@@ -203,6 +203,9 @@ img{
 	-ms-flex-direction: column;
 	flex-direction: column;
 	padding: 20vh 7vw 15vh 7vw;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+  -ms-background-size: column;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
