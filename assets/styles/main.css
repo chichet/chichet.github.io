@@ -338,6 +338,10 @@ img{
 	border-radius: 5px;
 	text-align: left;
 }
+/* skills */
+.skill-item {
+	margin-bottom: 1em;
+}
 
 /* project */
 
