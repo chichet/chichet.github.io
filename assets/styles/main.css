@@ -178,6 +178,14 @@ body {
 img{
 	width: 100%;
 }
+.bar-image-container {
+	display: flex;
+	align-items: center;
+}
+
+.row {
+	margin-bottom: 2em;
+}
 
 /* header */
 
