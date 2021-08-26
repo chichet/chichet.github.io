@@ -206,7 +206,7 @@ img{
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
   -ms-background-size: cover;
-	background-size: cover;
+	background-size: cover !important;
 	background-position: center;
 	background-attachment: fixed;
 	position: relative;
