@@ -102,6 +102,11 @@ a {
 	text-decoration: none;
 }
 
+ul {
+  list-style-type: square;
+}
+
+
 #body-wrapper p, ul, a{
 	color: #666666;
 }
@@ -185,6 +190,14 @@ img{
 
 .row {
 	margin-bottom: 2em;
+}
+
+.green{
+	color: green;
+}
+
+.accomplishement {
+	margin-top: 0.5em
 }
 
 /* header */
